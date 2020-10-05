@@ -1,11 +1,11 @@
 import React from 'react';
-import UsersFromFormInputs from './components/UsersFromFormInputs';
+import UsersFromMultipleInputs from './components/UsersFromMultipleInputs';
 //
 
 function App() {
   return (
     <div className='App'>
-      <UsersFromFormInputs />
+      <UsersFromMultipleInputs />
     </div>
   );
 }
