@@ -1,11 +1,11 @@
 import React from 'react';
-import UsersFromJSONPlaceholder from './components/UsersFromJSONPlaceholder';
+import UsersFromFormInputs from './components/UsersFromFormInputs';
 //
 
 function App() {
   return (
     <div className='App'>
-      <UsersFromJSONPlaceholder />
+      <UsersFromFormInputs />
     </div>
   );
 }
