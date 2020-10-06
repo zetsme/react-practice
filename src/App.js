@@ -1,11 +1,11 @@
 import React from 'react';
-import UsersFromMultipleInputs from './components/UsersFromMultipleInputs';
+import CounterUseReducer from './components/CounterUseReducer';
 //
 
 function App() {
   return (
     <div className='App'>
-      <UsersFromMultipleInputs />
+      <CounterUseReducer />
     </div>
   );
 }
