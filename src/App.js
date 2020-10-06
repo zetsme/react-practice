@@ -1,11 +1,11 @@
 import React from 'react';
-import CounterUseReducer from './components/CounterUseReducer';
+import CarComponentsUseReducer from './components/CarComponentsUseReducer';
 //
 
 function App() {
   return (
     <div className='App'>
-      <CounterUseReducer />
+      <CarComponentsUseReducer />
     </div>
   );
 }
