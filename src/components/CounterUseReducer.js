@@ -6,6 +6,8 @@ const reducer = (state, action) => {
       return { count: state.count + 1 };
     case 'DECREMENT':
       return { count: state.count - 1 };
+    case 'RESET':
+      return { count: 0 };
     default:
       throw new Error();
   }
@@ -13,12 +15,9 @@ const reducer = (state, action) => {
 
 const CounterUseReducer = () => {
   const [state, dispatch] = useReducer(reducer, defaultState);
-  const handleInс = () => {
-    dispatch({ type: 'INCREMENT' });
-  };
-  const handleDec = () => {
-    dispatch({ type: 'DECREMENT' });
-  };
+  const handleInс = () => dispatch({ type: 'INCREMENT' });
+  const handleDec = () => dispatch({ type: 'DECREMENT' });
+  const handleRes = () => dispatch({ type: 'RESET' });
   return (
     <div className='w-full h-full bg-red-300 absolute flex items-center justify-center'>
       <div className='bg-blue-200 border border-blue-400 p-8 rounded w-1/2'>
@@ -35,9 +34,15 @@ const CounterUseReducer = () => {
           </button>
           <button
             onClick={handleDec}
-            className='px-2 py-1 rounded w-8 border border-blue-400'
+            className='px-2 py-1 rounded w-8 border border-blue-400 mr-2'
           >
             -
+          </button>
+          <button
+            onClick={handleRes}
+            className='px-2 py-1 rounded border border-blue-400'
+          >
+            Reset
           </button>
         </div>
       </div>
