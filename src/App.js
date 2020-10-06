@@ -1,11 +1,11 @@
 import React from 'react';
-import UsersFromFormInputUseReducer from './components/UsersFromFormInputUseReducer';
+import CalculatorUseReducer from './components/CalculatorUseReducer';
 //
 
 function App() {
   return (
     <div className='App'>
-      <UsersFromFormInputUseReducer />
+      <CalculatorUseReducer />
     </div>
   );
 }
