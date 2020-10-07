@@ -1,11 +1,11 @@
 import React from 'react';
-import CalculatorUseReducer from './components/CalculatorUseReducer';
+import FormSubmitUseReducer from './components/FormSubmitUseReducer';
 //
 
 function App() {
   return (
     <div className='App'>
-      <CalculatorUseReducer />
+      <FormSubmitUseReducer />
     </div>
   );
 }
