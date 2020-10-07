@@ -1,11 +1,11 @@
 import React from 'react';
-import FormSubmitUseReducer from './components/FormSubmitUseReducer';
+import PokemonUseEffect from './components/PokemonUseEffect';
 //
 
 function App() {
   return (
     <div className='App'>
-      <FormSubmitUseReducer />
+      <PokemonUseEffect />
     </div>
   );
 }
