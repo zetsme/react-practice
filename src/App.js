@@ -1,11 +1,11 @@
 import React from 'react';
-import PokemonUseEffect from './components/PokemonUseEffect';
+import UsersJSONPlaceholderUseEffect from './components/UsersJSONPlaceholderUseEffect';
 //
 
 function App() {
   return (
     <div className='App'>
-      <PokemonUseEffect />
+      <UsersJSONPlaceholderUseEffect />
     </div>
   );
 }
