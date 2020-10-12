@@ -1,11 +1,11 @@
 import React from 'react';
-import UsersJSONPlaceholderUseEffect from './components/UsersJSONPlaceholderUseEffect';
+import SortTable from './components/SortTable';
 //
 
 function App() {
   return (
     <div className='App'>
-      <UsersJSONPlaceholderUseEffect />
+      <SortTable />
     </div>
   );
 }
