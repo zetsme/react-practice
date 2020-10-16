@@ -1,11 +1,11 @@
 import React from 'react';
-import InputsForUseLocalStorage from './components/InputsForUseLocalStorage';
+import ChuckNorrisJokes from './components/ChuckNorrisJokes';
 //
 
 function App() {
   return (
     <div className='App'>
-      <InputsForUseLocalStorage />
+      <ChuckNorrisJokes />
     </div>
   );
 }
