@@ -1,11 +1,11 @@
 import React from 'react';
-import ChuckNorrisJokes from './components/ChuckNorrisJokes';
+import SliderUseEffect from './components/SliderUseEffect';
 //
 
 function App() {
   return (
     <div className='App'>
-      <ChuckNorrisJokes />
+      <SliderUseEffect />
     </div>
   );
 }
