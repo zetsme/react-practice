@@ -1,13 +1,8 @@
 import React from 'react';
-import SliderUseEffect from './components/SliderUseEffect';
 //
 
 function App() {
-  return (
-    <div className='App'>
-      <SliderUseEffect />
-    </div>
-  );
+  return <div className='App'></div>;
 }
 
 export default App;
