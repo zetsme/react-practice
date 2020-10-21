@@ -47,7 +47,7 @@ const reducer = (state, action) => {
   }
 };
 
-const ItemsListCRUD = () => {
+const ItemsList = () => {
   const [input, setInput] = useState('');
   const [state, dispatch] = useReducer(reducer, initialState);
   const [alert, setAlert] = useState({
@@ -176,4 +176,4 @@ const ItemsListCRUD = () => {
   );
 };
 
-export default ItemsListCRUD;
+export default ItemsList;
